@@ -23,5 +23,8 @@ namespace AuthSample.Models
         [Required]
         public string StreetAddress { get; set; }
 
+        public virtual ICollection<Pet> Pets { get; set; }
+        public virtual ICollection<Payment> Payments { get; set; }
+
     }
 }

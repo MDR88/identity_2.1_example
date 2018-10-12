@@ -15,5 +15,7 @@ namespace AuthSample.Data
         }
 
         public DbSet<ApplicationUser> ApplicationUser { get; set;}
+        public DbSet<Pet> Pets { get; set;}
+        public DbSet<Payment> Payments { get; set;}
     }
 }
